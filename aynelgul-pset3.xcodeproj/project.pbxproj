@@ -14,6 +14,7 @@
 		851A053C1DDB4521002D528D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851A053A1DDB4521002D528D /* LaunchScreen.storyboard */; };
 		851A05471DDB4521002D528D /* aynelgul_pset3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A05461DDB4521002D528D /* aynelgul_pset3Tests.swift */; };
 		851A05521DDB4521002D528D /* aynelgul_pset3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851A05511DDB4521002D528D /* aynelgul_pset3UITests.swift */; };
+		851F6BD51DDD04AD00DA8AF1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		851A054D1DDB4521002D528D /* aynelgul-pset3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aynelgul-pset3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851A05511DDB4521002D528D /* aynelgul_pset3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aynelgul_pset3UITests.swift; sourceTree = "<group>"; };
 		851A05531DDB4521002D528D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				851A05381DDB4521002D528D /* Assets.xcassets */,
 				851A053A1DDB4521002D528D /* LaunchScreen.storyboard */,
 				851A053D1DDB4521002D528D /* Info.plist */,
+				851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */,
 			);
 			path = "aynelgul-pset3";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				851A05341DDB451E002D528D /* ViewController.swift in Sources */,
 				851A05321DDB451E002D528D /* AppDelegate.swift in Sources */,
+				851F6BD51DDD04AD00DA8AF1 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				851A05581DDB4523002D528D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		851A05591DDB4523002D528D /* Build configuration list for PBXNativeTarget "aynelgul-pset3Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				851A055B1DDB4523002D528D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		851A055C1DDB4523002D528D /* Build configuration list for PBXNativeTarget "aynelgul-pset3UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				851A055E1DDB4523002D528D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
