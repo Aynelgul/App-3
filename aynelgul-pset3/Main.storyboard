@@ -27,9 +27,9 @@
                                 <rect key="frame" x="16" y="64" width="343" height="603"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Find movie" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s2w-0X-ugg">
-                                        <rect key="frame" x="8" y="15" width="236" height="30"/>
+                                        <rect key="frame" x="8" y="15" width="188" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="s2w-0X-ugg" secondAttribute="height" multiplier="118:15" id="U7X-hJ-2q5"/>
+                                            <constraint firstAttribute="width" secondItem="s2w-0X-ugg" secondAttribute="height" multiplier="118:15" constant="-48" id="U7X-hJ-2q5"/>
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>

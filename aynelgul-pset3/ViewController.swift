@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+    
     
     @IBOutlet weak var TableView: UITableView!
     @IBOutlet weak var movieRequest: UITextField!
@@ -57,21 +57,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let url = URL(string: "https://omdbapi.com/?t="+title+"&yplot=short&r=json")
         let task = URLSession.shared.dataTask(with: url!, completionHandler: { data, response, error in
             guard let data = data, error == nil else {
-                // error?
+                print(error!, "No movie found!")
                 return
             }
             do {
                 let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
-                print (json)
                 
                 DispatchQueue.main.async {
-                    self.data = json as! [String : String]
+                    self.data = json as! [String: String]
                     self.titles.append(json["Title"] as! String)
                     self.descriptions[self.data["Title"]!] = self.data["Plot"]
                     self.TableView.reloadData()
+                    self.updateDatabase()
                 }
             } catch {
-                // error handling
+                print(error,"Could not load.")
             }
         }).resume()
 
@@ -83,17 +83,36 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view, typically from a nib.
         
         //Looks for single or multiple taps.
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
         tap.cancelsTouchesInView = false
         
         view.addGestureRecognizer(tap)
+        
+        if (titles.count > 0) {
+            database.set(titles, forKey: "Title")
+            database.set(descriptions, forKey: "Plot")
+            
+        }
     }
     
     // Function when tap is recognized.
     func dismissKeyboard() {
         view.endEditing(true)
     }
-
+    
+    func updateDatabase() {
+        self.database.set(self.titles, forKey: "Title")
+        self.database.set(self.descriptions, forKey: "Plot")
+    }
+    
+// werkt niet
+//    private func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
+//        
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
+//        
+//        return cell
+//    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

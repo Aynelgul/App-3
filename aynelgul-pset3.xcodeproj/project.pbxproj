@@ -17,6 +17,7 @@
 		8548076C1DDF56670015DA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8548076B1DDF56670015DA89 /* Main.storyboard */; };
 		8548076E1DDF5ADB0015DA89 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548076D1DDF5ADB0015DA89 /* SecondViewController.swift */; };
 		854807701DDF85DB0015DA89 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548076F1DDF85DB0015DA89 /* StartViewController.swift */; };
+		854807731DDFB1B30015DA89 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 854807721DDFB1B30015DA89 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8548076B1DDF56670015DA89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8548076D1DDF5ADB0015DA89 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8548076F1DDF85DB0015DA89 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		854807721DDFB1B30015DA89 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		851A05301DDB451E002D528D /* aynelgul-pset3 */ = {
 			isa = PBXGroup;
 			children = (
+				854807711DDFB18B0015DA89 /* doc */,
 				851A05311DDB451E002D528D /* AppDelegate.swift */,
 				851A05331DDB451E002D528D /* ViewController.swift */,
 				8548076D1DDF5ADB0015DA89 /* SecondViewController.swift */,
@@ -132,6 +135,14 @@
 				851A05531DDB4521002D528D /* Info.plist */,
 			);
 			path = "aynelgul-pset3UITests";
+			sourceTree = "<group>";
+		};
+		854807711DDFB18B0015DA89 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				854807721DDFB1B30015DA89 /* README.md */,
+			);
+			name = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854807731DDFB1B30015DA89 /* README.md in Sources */,
 				854807701DDF85DB0015DA89 /* StartViewController.swift in Sources */,
 				8548076E1DDF5ADB0015DA89 /* SecondViewController.swift in Sources */,
 				851A05341DDB451E002D528D /* ViewController.swift in Sources */,
