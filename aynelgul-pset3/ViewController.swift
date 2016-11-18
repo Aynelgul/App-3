@@ -57,7 +57,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let url = URL(string: "https://omdbapi.com/?t="+title+"&yplot=short&r=json")
         let task = URLSession.shared.dataTask(with: url!, completionHandler: { data, response, error in
             guard let data = data, error == nil else {
-                print(error!, "No movie found!")
+                print(error!, "Could not load!")
                 return
             }
             do {
@@ -71,7 +71,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     self.updateDatabase()
                 }
             } catch {
-                print(error,"Could not load.")
+                print(error,"No movie found.")
             }
         }).resume()
 
