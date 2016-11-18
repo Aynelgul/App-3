@@ -16,8 +16,10 @@
 		851F6BD51DDD04AD00DA8AF1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */; };
 		8548076C1DDF56670015DA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8548076B1DDF56670015DA89 /* Main.storyboard */; };
 		8548076E1DDF5ADB0015DA89 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548076D1DDF5ADB0015DA89 /* SecondViewController.swift */; };
-		854807701DDF85DB0015DA89 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548076F1DDF85DB0015DA89 /* StartViewController.swift */; };
 		854807731DDFB1B30015DA89 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 854807721DDFB1B30015DA89 /* README.md */; };
+		854807771DDFBB6A0015DA89 /* IMG_6740.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 854807741DDFBB6A0015DA89 /* IMG_6740.PNG */; };
+		854807781DDFBB6A0015DA89 /* IMG_6741.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 854807751DDFBB6A0015DA89 /* IMG_6741.PNG */; };
+		854807791DDFBB6A0015DA89 /* IMG_6742.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 854807761DDFBB6A0015DA89 /* IMG_6742.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +55,10 @@
 		851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		8548076B1DDF56670015DA89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8548076D1DDF5ADB0015DA89 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		8548076F1DDF85DB0015DA89 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		854807721DDFB1B30015DA89 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		854807741DDFBB6A0015DA89 /* IMG_6740.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_6740.PNG; sourceTree = "<group>"; };
+		854807751DDFBB6A0015DA89 /* IMG_6741.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_6741.PNG; sourceTree = "<group>"; };
+		854807761DDFBB6A0015DA89 /* IMG_6742.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_6742.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +114,6 @@
 				851A05331DDB451E002D528D /* ViewController.swift */,
 				8548076D1DDF5ADB0015DA89 /* SecondViewController.swift */,
 				8548076B1DDF56670015DA89 /* Main.storyboard */,
-				8548076F1DDF85DB0015DA89 /* StartViewController.swift */,
 				851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */,
 				851A05381DDB4521002D528D /* Assets.xcassets */,
 				851A053A1DDB4521002D528D /* LaunchScreen.storyboard */,
@@ -141,6 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				854807721DDFB1B30015DA89 /* README.md */,
+				854807741DDFBB6A0015DA89 /* IMG_6740.PNG */,
+				854807751DDFBB6A0015DA89 /* IMG_6741.PNG */,
+				854807761DDFBB6A0015DA89 /* IMG_6742.PNG */,
 			);
 			name = doc;
 			sourceTree = "<group>";
@@ -255,6 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854807771DDFBB6A0015DA89 /* IMG_6740.PNG in Resources */,
+				854807781DDFBB6A0015DA89 /* IMG_6741.PNG in Resources */,
+				854807791DDFBB6A0015DA89 /* IMG_6742.PNG in Resources */,
 				8548076C1DDF56670015DA89 /* Main.storyboard in Resources */,
 				851A053C1DDB4521002D528D /* LaunchScreen.storyboard in Resources */,
 				851A05391DDB4521002D528D /* Assets.xcassets in Resources */,
@@ -283,7 +292,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				854807731DDFB1B30015DA89 /* README.md in Sources */,
-				854807701DDF85DB0015DA89 /* StartViewController.swift in Sources */,
 				8548076E1DDF5ADB0015DA89 /* SecondViewController.swift in Sources */,
 				851A05341DDB451E002D528D /* ViewController.swift in Sources */,
 				851A05321DDB451E002D528D /* AppDelegate.swift in Sources */,
