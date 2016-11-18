@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		851A052E1DDB451E002D528D /* aynelgul-pset3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aynelgul-pset3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851A05311DDB451E002D528D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		851A05331DDB451E002D528D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		851A05331DDB451E002D528D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		851A05361DDB4520002D528D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		851A05381DDB4521002D528D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		851A053B1DDB4521002D528D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +101,11 @@
 			children = (
 				851A05311DDB451E002D528D /* AppDelegate.swift */,
 				851A05331DDB451E002D528D /* ViewController.swift */,
+				851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */,
 				851A05351DDB4520002D528D /* Main.storyboard */,
 				851A05381DDB4521002D528D /* Assets.xcassets */,
 				851A053A1DDB4521002D528D /* LaunchScreen.storyboard */,
 				851A053D1DDB4521002D528D /* Info.plist */,
-				851F6BD41DDD04AC00DA8AF1 /* MovieCell.swift */,
 			);
 			path = "aynelgul-pset3";
 			sourceTree = "<group>";
