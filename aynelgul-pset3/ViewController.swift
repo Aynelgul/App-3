@@ -68,20 +68,30 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     self.data = json as! [String : String]
                     self.titles.append(json["Title"] as! String)
                     self.descriptions[self.data["Title"]!] = self.data["Plot"]
-                    
+                    self.TableView.reloadData()
                 }
             } catch {
                 // error handling
             }
-
         }).resume()
-        TableView.reloadData()
+
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        tap.cancelsTouchesInView = false
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    // Function when tap is recognized.
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {
