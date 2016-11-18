@@ -9,7 +9,7 @@
 import UIKit
 
 class MovieCell: UITableViewCell {
-    
+        
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var movieDiscription: UILabel!
@@ -17,7 +17,6 @@ class MovieCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
