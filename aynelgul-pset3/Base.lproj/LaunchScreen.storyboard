@@ -22,27 +22,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1*qDrF5-SSnFkUde7eMvNtNA" translatesAutoresizingMaskIntoConstraints="NO" id="Fr4-l4-vb7">
-                                <rect key="frame" x="0.0" y="207" width="375" height="286"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elS-lW-FHv">
                                 <rect key="frame" x="93" y="94" width="189" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="xS1-Hm-bJI"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1*qDrF5-SSnFkUde7eMvNtNA" translatesAutoresizingMaskIntoConstraints="NO" id="Fr4-l4-vb7">
+                                <rect key="frame" x="27" y="208" width="321" height="304"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Fr4-l4-vb7" secondAttribute="trailing" id="5gA-bd-doi"/>
-                            <constraint firstItem="Fr4-l4-vb7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="A2r-EW-ZHO"/>
-                            <constraint firstItem="Fr4-l4-vb7" firstAttribute="top" secondItem="elS-lW-FHv" secondAttribute="bottom" constant="65" id="YQg-0R-wFK"/>
-                            <constraint firstItem="elS-lW-FHv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="74" id="ddR-VA-h8Y"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Fr4-l4-vb7" secondAttribute="bottom" constant="174" id="kFS-uS-L6a"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="elS-lW-FHv" secondAttribute="trailing" constant="77" id="ol7-C3-2rd"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Fr4-l4-vb7" secondAttribute="bottom" constant="155" id="BeX-o8-lr4"/>
+                            <constraint firstItem="elS-lW-FHv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="74" id="Gw5-0a-Mkg"/>
+                            <constraint firstItem="elS-lW-FHv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qeq-Rw-Hbh"/>
+                            <constraint firstItem="elS-lW-FHv" firstAttribute="centerX" secondItem="Fr4-l4-vb7" secondAttribute="centerX" id="aSV-fE-fY7"/>
+                            <constraint firstItem="Fr4-l4-vb7" firstAttribute="top" secondItem="elS-lW-FHv" secondAttribute="bottom" constant="66" id="ebD-nX-EgO"/>
+                            <constraint firstItem="Fr4-l4-vb7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="26.5" id="iIE-Au-ojm"/>
+                            <constraint firstItem="Fr4-l4-vb7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="11" id="nQH-c4-RUh"/>
                         </constraints>
                     </view>
                 </viewController>
